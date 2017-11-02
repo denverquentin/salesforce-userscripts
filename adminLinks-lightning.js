@@ -23,13 +23,13 @@ NOT USING YET SINCE LIGHTNING SETUP SUCKS
 */
 	jNode.prepend (
 		'<span style="color:#fff;font-weight:bold;"><a href="/setup/forcecomHomepage.apexp" style="color:#fff;">Setup</a>&nbsp;|&nbsp;' +
-		'<a href="/one/one.app?source=aloha#/setup/object/manager" style="color:#fff;">Objects</a>&nbsp;|&nbsp;' +
+		'<a href="/p/setup/custent/CustomObjectsPage" style="color:#fff;">Objects</a>&nbsp;|&nbsp;' +
 		'<a target="_blank" href="/_ui/common/apex/debug/ApexCSIPage" style="color:#fff;">Console</a>&nbsp;|&nbsp;' +
 		'<a href="/setup/ui/listApexTraces.apexp" style="color:#fff;">Logs</a>&nbsp;|&nbsp;' +
-		'<a href="/apexpages/setup/listAsyncApexJobs.apexp" style="color:#fff;">Jobs</a>&nbsp;|&nbsp;' +
 		'<a href="/01p" style="color:#fff;">Classes</a>&nbsp;|&nbsp;' +
 		'<a href="/ui/setup/apex/ApexTestQueuePage" style="color:#fff;">Tests</a>&nbsp;|&nbsp;' +
-		'<a href="/apexpages/setup/listApexPage.apexp" style="color:#fff;">Pages</a>&nbsp;|&nbsp;' +
+		'<a href="/apexpages/setup/listAsyncApexJobs.apexp" style="color:#fff;">Jobs</a>&nbsp;|&nbsp;' +
+		'<a href="/08e" style="color:#fff;">Sched</a>&nbsp;|&nbsp;' +
 		'<a href="/setup/ui/listCustomSettings.apexp" style="color:#fff;">CS</a>&nbsp;|&nbsp;' +
 		'<a href="/005?isUserEntityOverride=1&retURL=%2Fui%2Fsetup%2FSetup%3Fsetupid%3DUsers&setupid=ManageUsers" style="color:#fff;">Users</a>&nbsp;|&nbsp;' +
 		'<a href="/00e?setupid=EnhancedProfiles" style="color:#fff;">Profiles</a>&nbsp;|&nbsp;' +
