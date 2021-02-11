@@ -13,15 +13,17 @@ var betterSetupLinks = '<a href="/setup/forcecomHomepage.apexp" style="padding:0
 '<a href="/01p" style="padding:0px;margin:0px;">Classes</a>&nbsp;|&nbsp;' +
 '<a href="/ui/setup/apex/ApexTestQueuePage" style="padding:0px;margin:0px;">Tests</a>&nbsp;|&nbsp;' +
 '<a href="/apexpages/setup/listApexPage.apexp" style="padding:0px;margin:0px;">Pages</a>&nbsp;|&nbsp;' +
-'<a href="/0DM/o?setupid=CustomDomain" style="padding:0px;margin:0px;">Sites</a>&nbsp;|&nbsp;' +
+//'<a href="/0DM/o?setupid=CustomDomain" style="padding:0px;margin:0px;">Sites</a>&nbsp;|&nbsp;' +
 '<a href="/apexpages/setup/listAsyncApexJobs.apexp" style="padding:0px;margin:0px;">Jobs</a>&nbsp;|&nbsp;' +
 '<a href="/08e" style="padding:0px;margin:0px;">Sched</a>&nbsp;|&nbsp;' +
 '<a href="/setup/ui/listCustomSettings.apexp" style="padding:0px;margin:0px;">CS</a>&nbsp;|&nbsp;' +
-'<a href="/005?isUserEntityOverride=1&retURL=%2Fui%2Fsetup%2FSetup%3Fsetupid%3DUsers&setupid=ManageUsers" style="padding:0px;margin:0px;">Users</a>&nbsp;|&nbsp;' +
-'<a href="/00e?setupid=EnhancedProfiles" style="padding:0px;margin:0px;">Profiles</a>&nbsp;|&nbsp;' +
+'<a href="/_ui/platform/ui/schema/wizard/entity/CustomMetadataTypeListPage?setupid=CustomMetadata" style="padding:0px;margin:0px;">CMT</a>&nbsp;|&nbsp;' +
+'<a href="/0PS?setupid=PermSets" style="padding:0px;margin:0px;">Perm Set</a>&nbsp;|&nbsp;' +
+'<a href="/005?isUserEntityOverride=1&setupid=ManageUsers" style="padding:0px;margin:0px;">Users</a>&nbsp;|&nbsp;' +
+'<a href="/setup/ui/profilelist.jsp?setupid=Profiles" style="padding:0px;margin:0px;">Profiles</a>&nbsp;|&nbsp;' +
 '<a href="/ui/setup/Setup?setupid=PersonalSetup" style="padding:0px;margin:0px;">MS</a>&nbsp;|&nbsp;' +
 '<a target="_blank" href="https://help.salesforce.com/home" style="padding:0px;margin:0px;">Help</a>&nbsp;|&nbsp;' +
-'<a href="/lightning/switcher?destination=lex" style="padding:0px;margin:0px;">Lightning</a>&nbsp;|&nbsp;' +
+'<a href="/one/one.app?source=alohaHeader" style="padding:0px;margin:0px;">Lightning</a>&nbsp;|&nbsp;' +
 '<a href="/secur/logout.jsp" style="padding:0px;margin:0px;">Logout</a>';
 
 var appBodyHeader = document.getElementById("AppBodyHeader");
