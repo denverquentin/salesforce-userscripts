@@ -20,7 +20,7 @@ var betterSetupLinks = '&nbsp;&nbsp;<a href="/setup/forcecomHomepage.apexp" styl
 '<a href="/_ui/platform/ui/schema/wizard/entity/CustomMetadataTypeListPage?setupid=CustomMetadata" style="color:#fff;">CMT</a>&nbsp;|&nbsp;' +
 '<a href="/0PS?setupid=PermSets" style="color:#fff;">Perm Set</a>&nbsp;|&nbsp;' +
 '<a href="/005?isUserEntityOverride=1&setupid=ManageUsers" style="color:#fff;">Users</a>&nbsp;|&nbsp;' +
-'<a href="/setup/ui/profilelist.jsp?setupid=Profiles" style="color:#fff;">Profiles</a>&nbsp;|&nbsp;' +
+'<a href="/00e?setupid=EnhancedProfiles" style="color:#fff;">Profiles</a>&nbsp;|&nbsp;' +
 '<a href="/ui/setup/Setup?setupid=PersonalSetup" style="color:#fff;">MS</a>&nbsp;|&nbsp;' +
 '<a target="_blank" href="https://help.salesforce.com/home" style="color:#fff;">Help</a>&nbsp;|&nbsp;' +
 '<a href="/one/one.app?source=alohaHeader" style="color:#fff;">Lightning</a>&nbsp;|&nbsp;' +

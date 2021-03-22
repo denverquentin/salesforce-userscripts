@@ -36,7 +36,7 @@ NOT USING YET SINCE LIGHTNING SETUP SUCKS
 		'<a href="/_ui/platform/ui/schema/wizard/entity/CustomMetadataTypeListPage?setupid=CustomMetadata" style="color:#000;">CMT</a>&nbsp;|&nbsp;' +
 		'<a href="/0PS?setupid=PermSets" style="color:#000;">Perm Set</a>&nbsp;|&nbsp;' +
 		'<a href="/005?isUserEntityOverride=1&setupid=ManageUsers" style="color:#000;">Users</a>&nbsp;|&nbsp;' +
-		'<a href="/setup/ui/profilelist.jsp?setupid=Profiles" style="color:#000;">Profiles</a>&nbsp;|&nbsp;' +
+		'<a href="/00e?setupid=EnhancedProfiles" style="color:#000;">Profiles</a>&nbsp;|&nbsp;' +
 		//'<a href="/one/one.app#/settings/personal/PersonalInformation/home" style="color:#000;">MS</a>&nbsp;|&nbsp;' +
 		//'<a target="_blank" href="https://help.salesforce.com/home" style="color:#000;">Help</a>&nbsp;|&nbsp;' +
 		'<a href="/ltng/switcher?destination=classic" style="color:#000;">Classic</a></span>&nbsp;&nbsp;'
