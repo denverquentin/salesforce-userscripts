@@ -33,8 +33,6 @@ if (globalHeaderBar != null) {
 	att.value = "font-color:#fff;font-weight:bold;text-align:center;";
 	linksNode.setAttributeNode(att);
 	linksNode.innerHTML = betterSetupLinks;
-//	var textnode = document.createTextNode("This was added dinamically");
-//	linksNode.appendChild(textnode);
 	var child = globalHeaderBar.children[2];
 	globalHeaderBar.insertBefore(linksNode, child);
 }
