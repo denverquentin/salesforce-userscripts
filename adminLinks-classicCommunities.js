@@ -23,7 +23,7 @@ var betterSetupLinks = '&nbsp;&nbsp;<a href="/setup/forcecomHomepage.apexp" styl
 '<a href="/00e?setupid=EnhancedProfiles" style="color:#fff;">Profiles</a>&nbsp;|&nbsp;' +
 '<a href="/ui/setup/Setup?setupid=PersonalSetup" style="color:#fff;">MS</a>&nbsp;|&nbsp;' +
 '<a target="_blank" href="https://help.salesforce.com/home" style="color:#fff;">Help</a>&nbsp;|&nbsp;' +
-'<a href="/one/one.app?source=alohaHeader" style="color:#fff;">Lightning</a>&nbsp;|&nbsp;' +
+'<a href="/ltng/switcher?destination=lex-campaign" style="color:#fff;">Lightning</a>&nbsp;|&nbsp;' +
 '<a href="/secur/logout.jsp" style="color:#fff;">Logout</a>&nbsp;&nbsp;';
 
 var globalHeaderBar = document.getElementById("globalHeaderBar");

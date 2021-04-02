@@ -23,7 +23,7 @@ var betterSetupLinks = '<a href="/setup/forcecomHomepage.apexp" style="padding:0
 '<a href="/00e?setupid=EnhancedProfiles" style="padding:0px;margin:0px;">Profiles</a>&nbsp;|&nbsp;' +
 '<a href="/ui/setup/Setup?setupid=PersonalSetup" style="padding:0px;margin:0px;">MS</a>&nbsp;|&nbsp;' +
 '<a target="_blank" href="https://help.salesforce.com/home" style="padding:0px;margin:0px;">Help</a>&nbsp;|&nbsp;' +
-'<a href="/one/one.app?source=alohaHeader" style="padding:0px;margin:0px;">Lightning</a>&nbsp;|&nbsp;' +
+'<a href="/ltng/switcher?destination=lex-campaign" style="padding:0px;margin:0px;">Lightning</a>&nbsp;|&nbsp;' +
 '<a href="/secur/logout.jsp" style="padding:0px;margin:0px;">Logout</a>';
 
 var appBodyHeader = document.getElementById("AppBodyHeader");
