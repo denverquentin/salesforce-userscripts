@@ -26,12 +26,31 @@ var betterSetupLinks = '<a href="/setup/forcecomHomepage.apexp" style="padding:0
 '<a href="/ltng/switcher?destination=lex-campaign" style="padding:0px;margin:0px;">Lightning</a>&nbsp;|&nbsp;' +
 '<a href="/secur/logout.jsp" style="padding:0px;margin:0px;">Logout</a>';
 
+
 var appBodyHeader = document.getElementById("AppBodyHeader");
+var chatterHeader = document.getElementById("page");
+//alert('appBodyHeader = ' + appBodyHeader);
+//alert('chatterHeader = ' + chatterHeader);
+
 if (appBodyHeader !== null) {
 	var linkElements = appBodyHeader.getElementsByClassName("linkElements");
 	if (linkElements !== null && linkElements.length == 1) {
 		var element = linkElements[0];
 		//alert(linkElements[0].innerHtml);
 		element.innerHTML = betterSetupLinks;
+	}
+
+} else if (chatterHeader !== null) {
+	var menu1 = chatterHeader.getElementsByClassName('zen-mrl');
+	if (menu1 !== null) {
+		for (var i = 0; i < menu1.length; i++) {
+			menu1[i].innerHTML = '';
+		}
+	}
+
+	var menu2 = chatterHeader.getElementsByClassName('zen-noSubmenu');
+	//alert('menu2 = ' + menu2.length);
+	if (menu2 !== null) {
+		menu2[0].innerHTML = '<ul class="zen-inlineList zen-listLarge"><li class="zen-active">' + betterSetupLinks + '</li></ul>';
 	}
 }
