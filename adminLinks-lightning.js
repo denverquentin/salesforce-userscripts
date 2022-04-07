@@ -27,7 +27,7 @@ NOT USING YET SINCE LIGHTNING SETUP SUCKS
 		'<a href="/p/setup/custent/CustomObjectsPage" style="color:#000;">Objects</a>&nbsp;|&nbsp;' +
 		'<a target="_blank" href="/_ui/common/apex/debug/ApexCSIPage" style="color:#000;">Console</a>&nbsp;|&nbsp;' +
 		'<a href="/setup/ui/listApexTraces.apexp" style="color:#000;">Logs</a>&nbsp;|&nbsp;' +
-		'<a href="/_ui/networks/setup/SetupNetworksPage" style="padding:0px;margin:0px;">Dig Ex</a>&nbsp;|&nbsp;' +
+		'<a href="/_ui/networks/setup/SetupNetworksPage" style="color:#000;">Dig Ex</a>&nbsp;|&nbsp;' +
 		'<a href="/01p" style="color:#000;">Classes</a>&nbsp;|&nbsp;' +
 		'<a href="/ui/setup/apex/ApexTestQueuePage" style="color:#000;">Tests</a>&nbsp;|&nbsp;' +
 		'<a href="/apexpages/setup/listApexPage.apexp" style="color:#000;">Pages</a>&nbsp;|&nbsp;' +
