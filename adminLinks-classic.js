@@ -10,12 +10,13 @@ var betterSetupLinks = '<a href="/setup/forcecomHomepage.apexp" style="padding:0
 '<a href="/p/setup/custent/CustomObjectsPage" style="padding:0px;margin:0px;">Objects</a>&nbsp;|&nbsp;' +
 '<a target="_blank" href="/_ui/common/apex/debug/ApexCSIPage" style="padding:0px;margin:0px;">Console</a>&nbsp;|&nbsp;' +
 '<a href="/setup/ui/listApexTraces.apexp" style="padding:0px;margin:0px;">Logs</a>&nbsp;|&nbsp;' +
+'<a href="/_ui/networks/setup/SetupNetworksPage" style="padding:0px;margin:0px;">Dig Ex</a>&nbsp;|&nbsp;' +
 '<a href="/01p" style="padding:0px;margin:0px;">Classes</a>&nbsp;|&nbsp;' +
 '<a href="/ui/setup/apex/ApexTestQueuePage" style="padding:0px;margin:0px;">Tests</a>&nbsp;|&nbsp;' +
 '<a href="/apexpages/setup/listApexPage.apexp" style="padding:0px;margin:0px;">Pages</a>&nbsp;|&nbsp;' +
 //'<a href="/0DM/o?setupid=CustomDomain" style="padding:0px;margin:0px;">Sites</a>&nbsp;|&nbsp;' +
 '<a href="/apexpages/setup/listAsyncApexJobs.apexp" style="padding:0px;margin:0px;">Jobs</a>&nbsp;|&nbsp;' +
-'<a href="/08e" style="padding:0px;margin:0px;">Sched</a>&nbsp;|&nbsp;' +
+//'<a href="/08e" style="padding:0px;margin:0px;">Sched</a>&nbsp;|&nbsp;' +
 '<a href="/setup/ui/listCustomSettings.apexp" style="padding:0px;margin:0px;">CS</a>&nbsp;|&nbsp;' +
 '<a href="/_ui/platform/ui/schema/wizard/entity/CustomMetadataTypeListPage?setupid=CustomMetadata" style="padding:0px;margin:0px;">CMT</a>&nbsp;|&nbsp;' +
 '<a href="/0PS?setupid=PermSets" style="padding:0px;margin:0px;">Perm Set</a>&nbsp;|&nbsp;' +
