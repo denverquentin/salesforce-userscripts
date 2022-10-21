@@ -1,9 +1,10 @@
 // ==UserScript==
 // @name          Salesforce Admin Links for the Classic View
-// @description	  adds handy setup links to the top of all classic Salesforce pages
+// @description   adds handy setup links to the top of all classic Salesforce pages
+// @version       1
 // @author        quentin fish
-// @include       https://*.salesforce.com/*
-// @include       https://*.visualforce.com/*
+// @match         https://*.salesforce.com/*
+// @match         https://*.visualforce.com/*
 // ==/UserScript==
 
 var betterSetupLinks = '<a href="/setup/forcecomHomepage.apexp" style="padding:0px;margin:0px;">Setup</a>&nbsp;|&nbsp;' +

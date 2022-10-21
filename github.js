@@ -1,8 +1,10 @@
 // ==UserScript==
 // @name          Github Links I Use
-// @description	  adds handy links to the nav bar in Github
+// @description   adds handy links to the nav bar in Github
+// @version       1
 // @author        quentin fish
-// @include       https://github.com/*
+// @match         https://github.com/*
+// @match         https://www.github.com/*
 // ==/UserScript==
 
 var betterLinks = '<a href="/orgs/blackthornio/projects/19" class="Header-link">SF Project</a>&nbsp;|&nbsp;' +
@@ -15,3 +17,20 @@ var betterLinks = '<a href="/orgs/blackthornio/projects/19" class="Header-link">
 '<a href="/blackthornio/documentation" class="Header-link">Documentation</a>';
 
 document.querySelector('nav[aria-label="Global"]').innerHTML=betterLinks;
+
+
+/* here's what i'm currently using
+// ==UserScript==
+// @name          Github Links I Use
+// @description   adds handy links to the nav bar in Github
+// @version       1
+// @author        quentin fish
+// @match         https://github.com/*
+// @match         https://www.github.com/*
+// ==/UserScript==
+
+var betterLinks = '<a href="/UST-Accounts" class="Header-link">UST Repos</a>&nbsp;|&nbsp;' +
+'<a href="/denverquentin?tab=repositories" class="Header-link">My Repos</a>';
+
+document.querySelector('nav[aria-label="Global"]').innerHTML=betterLinks;
+*/

@@ -1,11 +1,12 @@
 // ==UserScript==
 // @name          Salesforce Admin Links for the Lightning View
-// @description	  adds handy setup links to the top of all Lightning Salesforce pages
+// @description   adds handy setup links to the top of all Lightning Salesforce pages
+// @version       1
 // @author        quentin fish
-// @include       https://*.lightning.force.com/*
-// @require  http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js
-// @require  https://gist.github.com/raw/2625891/waitForKeyElements.js
-// @grant    GM_addStyle
+// @match         https://*.lightning.force.com/*
+// @require       https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js
+// @require       https://gist.github.com/raw/2625891/waitForKeyElements.js
+// @grant         GM_addStyle
 // ==/UserScript==
 
 
@@ -20,7 +21,7 @@ custom settings - /one/one.app?source=aloha#/setup/CustomSettings/home
 users - /one/one.app?source=aloha#/setup/ManageUsers/home
 profiles - /one/one.app?source=aloha#/setup/EnhancedProfiles/home
 
-NOT USING YET SINCE LIGHTNING SETUP SUCKS
+NOT USING lighting setup urls above YET because it SUCKS
 */
 	jNode.prepend (
 		'<span style="color:#000;font-weight:bold;padding:0px;margin-top:3px;"><a href="/setup/forcecomHomepage.apexp" style="color:#000;">Setup</a>&nbsp;|&nbsp;' +
