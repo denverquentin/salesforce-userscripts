@@ -28,10 +28,10 @@ NOT USING lighting setup urls above YET because it SUCKS
 		'<a href="/p/setup/custent/CustomObjectsPage" style="color:#000;">Objects</a>&nbsp;|&nbsp;' +
 		'<a target="_blank" href="/_ui/common/apex/debug/ApexCSIPage" style="color:#000;">Console</a>&nbsp;|&nbsp;' +
 		'<a href="/setup/ui/listApexTraces.apexp" style="color:#000;">Logs</a>&nbsp;|&nbsp;' +
-		'<a href="/_ui/networks/setup/SetupNetworksPage" style="color:#000;">Dig Ex</a>&nbsp;|&nbsp;' +
+		//'<a href="/_ui/networks/setup/SetupNetworksPage" style="color:#000;">Dig Ex</a>&nbsp;|&nbsp;' +
 		'<a href="/01p" style="color:#000;">Classes</a>&nbsp;|&nbsp;' +
 		'<a href="/ui/setup/apex/ApexTestQueuePage" style="color:#000;">Tests</a>&nbsp;|&nbsp;' +
-		'<a href="/apexpages/setup/listApexPage.apexp" style="color:#000;">Pages</a>&nbsp;|&nbsp;' +
+		//'<a href="/apexpages/setup/listApexPage.apexp" style="color:#000;">Pages</a>&nbsp;|&nbsp;' +
 		'<a href="/apexpages/setup/listAsyncApexJobs.apexp" style="color:#000;">Jobs</a>&nbsp;|&nbsp;' +
 		//'<a href="/08e" style="color:#000;">Sched</a>&nbsp;|&nbsp;' +
 		'<a href="/setup/ui/listCustomSettings.apexp" style="color:#000;">CS</a>&nbsp;|&nbsp;' +
@@ -46,4 +46,5 @@ NOT USING lighting setup urls above YET because it SUCKS
 }
 
 //waitForKeyElements("div[class='system-message level-info']", addSetupLinks);
-waitForKeyElements("div[class='slds-button-group slds-global-actions__favorites oneFavorites']", addSetupLinks);
+//waitForKeyElements("div[class='slds-button-group slds-global-actions__favorites oneFavorites']", addSetupLinks);
+waitForKeyElements("div[class='slds-button-group-list slds-global-actions__favorites oneFavorites']", addSetupLinks);
